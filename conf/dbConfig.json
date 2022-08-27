@@ -2,5 +2,6 @@
   "host": "db",
   "port": 3306,
   "user": "dbuser",
+  "pass": "dbpass",
   "database": "orderdb"
 }

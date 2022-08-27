@@ -52,7 +52,7 @@ log.info('initializing database config...')
 dbHost = data["host"]
 dbPort = data["port"]
 dbUser = data["user"]
-dbPass = get_db_pass()
+dbPass = data["pass"]
 dbName = data["database"]
 
 log.info('database config initialize finished.')
