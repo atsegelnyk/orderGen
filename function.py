@@ -1,9 +1,25 @@
 from datetime import datetime
 from setup import *
+from constants import *
 
 def percentage(percent, number):
   percentage = number/100*percent
   return percentage
+
+
+def condition(todo, expression=None, eq=None, expected=None):
+    if expression == 0:
+        exec(todo)
+    else:
+        if eq == 'equals':
+            if eval(expression) == eval(expected):
+                exec(todo)
+        elif eq == 'less':
+            if eval(expression) <= eval(expected):
+                exec(todo)
+        elif eq == "greater":
+            if eval(expression) >= eval(expected):
+                exec(todo)
 
 
 def psrand(alpha, module, step, number):
@@ -45,33 +61,6 @@ def date_generate(data_arr):
     return creationDateArr
 
 
-
-def state_generate(data_arr):
-    state_arr = []
-    for i in range(order_range):
-        temp = data_arr[i] % 3
-        if(temp == 0):
-            state_arr.append("fill")
-           # print("fill")
-        if (temp ==1):
-            state_arr.append("partialFill")
-          #  print("particalFill")
-        if (temp == 2):
-            state_arr.append("cancelled")
-          #  print("cancelled")
-    return state_arr
-
-
-def state_update(data_arr):
-    if data_arr[0] % 3 == 0:
-        state = "fill"
-    if (data_arr[0] % 3 == 1):
-        state = "partialFill"
-    if (data_arr[0] % 3 == 2):
-        state = "cancelled"
-    return state
-
-
 def direction_generate(data_arr):
     direction_arr = []
     for i in range(order_range):
@@ -97,7 +86,6 @@ def pair_generate(data_arr):
             pair_arr.append("USDCHF")
     return pair_arr
 
-#def fill_volumes_generate():
 
 def inital_price_generate(data_arr):
     prices = []
@@ -162,7 +150,7 @@ def generateCurrentOrder():
 
 
 def change_date_generate(date, count):
-    diff = data_arr[count]/10
+    diff = data_arr[count]/10 + 1
     dateTimestamp = datetime.strptime(date, '%Y-%m-%d %H:%M:%S').timestamp()
     if dateTimestamp + diff in range(block1, block1 + timestampDiff):
         changedDate = str(datetime.fromtimestamp(dateTimestamp + diff + timestampDiff).replace(microsecond=0))
@@ -207,28 +195,24 @@ def update_fill_volumes(initalVolume, state, psrand_arr, count):
 
 
 def update_fill_price(initalPrice, direction, psrand_arr, count):
+    expression = eval('psrand_arr[count] % 10')
     if direction == "buy":
-        if psrand_arr[count] % 10 == 1:
-            updFillPrice = initalPrice - percentage(1, initalPrice)
-        elif psrand_arr[count] % 10 == 3:
-            updFillPrice = initalPrice - percentage(2, initalPrice)
-        elif psrand_arr[count] % 10 == 5:
-            updFillPrice = initalPrice - percentage(3, initalPrice)
-        elif psrand_arr[count] % 10 == 7:
-            updFillPrice = initalPrice - percentage(4, initalPrice)
-        else:
-            updFillPrice = initalPrice - percentage(5, initalPrice)
+
+        match expression:
+            case 1: updFillPrice = initalPrice - percentage(1, initalPrice)
+            case 3: updFillPrice = initalPrice - percentage(2, initalPrice)
+            case 5: updFillPrice = initalPrice - percentage(3, initalPrice)
+            case 7: updFillPrice = initalPrice - percentage(4, initalPrice)
+            case 9: updFillPrice = initalPrice - percentage(5, initalPrice)
+
     else:
-        if psrand_arr[count] % 10 == 1:
-            updFillPrice = initalPrice + percentage(1, initalPrice)
-        elif psrand_arr[count] % 10 == 3:
-            updFillPrice = initalPrice + percentage(2, initalPrice)
-        elif psrand_arr[count] % 10 == 5:
-            updFillPrice = initalPrice + percentage(3, initalPrice)
-        elif psrand_arr[count] % 10 == 7:
-            updFillPrice = initalPrice + percentage(4, initalPrice)
-        else:
-            updFillPrice = initalPrice + percentage(5, initalPrice)
+        match expression:
+            case 1: updFillPrice = initalPrice + percentage(1, initalPrice)
+            case 3: updFillPrice = initalPrice + percentage(2, initalPrice)
+            case 5: updFillPrice = initalPrice + percentage(3, initalPrice)
+            case 7: updFillPrice = initalPrice + percentage(4, initalPrice)
+            case 9: updFillPrice = initalPrice + percentage(5, initalPrice)
+
     return round(updFillPrice, 3)
 
 
@@ -239,18 +223,18 @@ def generateOrderHistory(currentOrderList):
         orderHistory.append(order)
 
 
-    for update in range(3):
+    for update in range(update_range):
         for order in range(order_range):
-            tempCurrentOrderList.append([currentOrderList[order][0],
-                                 currentOrderList[order][1],
-                                 change_date_generate(currentOrderList[order][1], order),
-                                 update_state(currentOrderList[order][3], data_arr, order),
-                                 currentOrderList[order][4],
-                                 currentOrderList[order][5],
-                                 currentOrderList[order][6],
-                                 update_fill_volumes(currentOrderList[order][6], update_state(currentOrderList[order][3], data_arr, order), data_arr, order),
-                                 currentOrderList[order][8],
-                                 update_fill_price(currentOrderList[order][8], currentOrderList[order][4], data_arr, order)
+            tempCurrentOrderList.append([currentOrderList[order][ID],
+                                 currentOrderList[order][CREATIONDATE],
+                                 change_date_generate(currentOrderList[order][CHANGEDATE], order),
+                                 update_state(currentOrderList[order][STATE], data_arr, order),
+                                 currentOrderList[order][INSTRUMENT],
+                                 currentOrderList[order][DIRECTION],
+                                 currentOrderList[order][INITALPRICE],
+                                 update_fill_volumes(currentOrderList[order][INITALVOLUME], update_state(currentOrderList[order][STATE], data_arr, order), data_arr, order),
+                                 currentOrderList[order][INITALPRICE],
+                                 update_fill_price(currentOrderList[order][INITALPRICE], currentOrderList[order][STATE], data_arr, order)
                                  ])
         for order in tempCurrentOrderList:
             orderHistory.append(order)

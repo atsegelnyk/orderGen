@@ -1,132 +1,126 @@
-INFO: opening config file...  at 2022-08-27 16:22:00,123
-INFO: file: config.json was opened successfully.  at 2022-08-27 16:22:00,124
-INFO: initializing programm config...  at 2022-08-27 16:22:00,124
-INFO: program config initialize finished.  at 2022-08-27 16:22:00,124
-INFO: opening dbConfig file...  at 2022-08-27 16:22:00,124
-INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 16:22:00,124
-INFO: initializing database config...  at 2022-08-27 16:22:00,124
-INFO: database config initialize finished.  at 2022-08-27 16:22:00,124
-INFO: initializing value config...  at 2022-08-27 16:22:00,124
-INFO: opening config file...  at 2022-08-27 17:01:44,483
-INFO: file: config.json was opened successfully.  at 2022-08-27 17:01:44,483
-INFO: initializing programm config...  at 2022-08-27 17:01:44,483
-INFO: program config initialize finished.  at 2022-08-27 17:01:44,483
-INFO: opening dbConfig file...  at 2022-08-27 17:01:44,483
-INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 17:01:44,484
-INFO: initializing database config...  at 2022-08-27 17:01:44,484
-INFO: opening config file...  at 2022-08-27 17:45:24,244
-INFO: file: config.json was opened successfully.  at 2022-08-27 17:45:24,244
-INFO: initializing programm config...  at 2022-08-27 17:45:24,244
-INFO: program config initialize finished.  at 2022-08-27 17:45:24,244
-INFO: opening dbConfig file...  at 2022-08-27 17:45:24,244
-INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 17:45:24,244
-INFO: initializing database config...  at 2022-08-27 17:45:24,244
-INFO: database config initialize finished.  at 2022-08-27 17:45:24,244
-INFO: initializing value config...  at 2022-08-27 17:45:24,244
-ERROR: Failed creating query  at 2022-08-27 17:45:28,105
-INFO: opening config file...  at 2022-08-27 17:46:08,828
-INFO: file: config.json was opened successfully.  at 2022-08-27 17:46:08,828
-INFO: initializing programm config...  at 2022-08-27 17:46:08,828
-INFO: program config initialize finished.  at 2022-08-27 17:46:08,828
-INFO: opening dbConfig file...  at 2022-08-27 17:46:08,828
-INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 17:46:08,828
-INFO: initializing database config...  at 2022-08-27 17:46:08,828
-INFO: database config initialize finished.  at 2022-08-27 17:46:08,828
-INFO: initializing value config...  at 2022-08-27 17:46:08,828
-ERROR: Connection failed  at 2022-08-27 17:46:08,916
-ERROR: (2003, "Can't connect to MySQL server on '172.18.0.2' ([Errno 111] Connection refused)")  at 2022-08-27 17:46:08,916
-INFO: opening config file...  at 2022-08-27 17:46:40,462
-INFO: file: config.json was opened successfully.  at 2022-08-27 17:46:40,462
-INFO: initializing programm config...  at 2022-08-27 17:46:40,462
-INFO: program config initialize finished.  at 2022-08-27 17:46:40,462
-INFO: opening dbConfig file...  at 2022-08-27 17:46:40,462
-INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 17:46:40,462
-INFO: initializing database config...  at 2022-08-27 17:46:40,463
-INFO: database config initialize finished.  at 2022-08-27 17:46:40,463
-INFO: initializing value config...  at 2022-08-27 17:46:40,463
-ERROR: Failed creating query  at 2022-08-27 17:46:44,286
-INFO: opening config file...  at 2022-08-27 17:48:11,041
-INFO: file: config.json was opened successfully.  at 2022-08-27 17:48:11,041
-INFO: initializing programm config...  at 2022-08-27 17:48:11,041
-INFO: program config initialize finished.  at 2022-08-27 17:48:11,041
-INFO: opening dbConfig file...  at 2022-08-27 17:48:11,041
-INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 17:48:11,041
-INFO: initializing database config...  at 2022-08-27 17:48:11,041
-INFO: database config initialize finished.  at 2022-08-27 17:48:11,041
-INFO: initializing value config...  at 2022-08-27 17:48:11,041
-INFO: opening config file...  at 2022-08-27 17:49:08,930
-INFO: file: config.json was opened successfully.  at 2022-08-27 17:49:08,930
-INFO: initializing programm config...  at 2022-08-27 17:49:08,930
-INFO: program config initialize finished.  at 2022-08-27 17:49:08,930
-INFO: opening dbConfig file...  at 2022-08-27 17:49:08,930
-INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 17:49:08,930
-INFO: initializing database config...  at 2022-08-27 17:49:08,930
-INFO: database config initialize finished.  at 2022-08-27 17:49:08,930
-INFO: initializing value config...  at 2022-08-27 17:49:08,930
-INFO: opening config file...  at 2022-08-27 17:50:11,358
-INFO: file: config.json was opened successfully.  at 2022-08-27 17:50:11,358
-INFO: initializing programm config...  at 2022-08-27 17:50:11,358
-INFO: program config initialize finished.  at 2022-08-27 17:50:11,358
-INFO: opening dbConfig file...  at 2022-08-27 17:50:11,358
-INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 17:50:11,358
-INFO: initializing database config...  at 2022-08-27 17:50:11,358
-INFO: database config initialize finished.  at 2022-08-27 17:50:11,358
-INFO: initializing value config...  at 2022-08-27 17:50:11,358
-INFO: opening config file...  at 2022-08-27 17:53:07,255
-INFO: file: config.json was opened successfully.  at 2022-08-27 17:53:07,255
-INFO: initializing programm config...  at 2022-08-27 17:53:07,255
-INFO: program config initialize finished.  at 2022-08-27 17:53:07,255
-INFO: opening dbConfig file...  at 2022-08-27 17:53:07,255
-INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 17:53:07,255
-INFO: initializing database config...  at 2022-08-27 17:53:07,255
-INFO: database config initialize finished.  at 2022-08-27 17:53:07,255
-INFO: initializing value config...  at 2022-08-27 17:53:07,255
-INFO: opening config file...  at 2022-08-27 17:53:28,352
-INFO: file: config.json was opened successfully.  at 2022-08-27 17:53:28,352
-INFO: initializing programm config...  at 2022-08-27 17:53:28,352
-INFO: program config initialize finished.  at 2022-08-27 17:53:28,352
-INFO: opening dbConfig file...  at 2022-08-27 17:53:28,352
-INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 17:53:28,352
-INFO: initializing database config...  at 2022-08-27 17:53:28,352
-INFO: database config initialize finished.  at 2022-08-27 17:53:28,352
-INFO: initializing value config...  at 2022-08-27 17:53:28,353
-INFO: opening config file...  at 2022-08-27 17:53:40,785
-INFO: file: config.json was opened successfully.  at 2022-08-27 17:53:40,785
-INFO: initializing programm config...  at 2022-08-27 17:53:40,786
-INFO: program config initialize finished.  at 2022-08-27 17:53:40,786
-INFO: opening dbConfig file...  at 2022-08-27 17:53:40,786
-INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 17:53:40,786
-INFO: initializing database config...  at 2022-08-27 17:53:40,786
-INFO: database config initialize finished.  at 2022-08-27 17:53:40,786
-INFO: initializing value config...  at 2022-08-27 17:53:40,786
-INFO: opening config file...  at 2022-08-27 17:54:07,024
-INFO: file: config.json was opened successfully.  at 2022-08-27 17:54:07,025
-INFO: initializing programm config...  at 2022-08-27 17:54:07,025
-INFO: program config initialize finished.  at 2022-08-27 17:54:07,025
-INFO: opening dbConfig file...  at 2022-08-27 17:54:07,025
-INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 17:54:07,025
-INFO: initializing database config...  at 2022-08-27 17:54:07,025
-INFO: database config initialize finished.  at 2022-08-27 17:54:07,025
-INFO: initializing value config...  at 2022-08-27 17:54:07,025
-INFO: opening config file...  at 2022-08-27 17:54:20,939
-INFO: file: config.json was opened successfully.  at 2022-08-27 17:54:20,939
-INFO: initializing programm config...  at 2022-08-27 17:54:20,940
-INFO: program config initialize finished.  at 2022-08-27 17:54:20,940
-INFO: opening dbConfig file...  at 2022-08-27 17:54:20,940
-INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 17:54:20,940
-INFO: initializing database config...  at 2022-08-27 17:54:20,940
-INFO: database config initialize finished.  at 2022-08-27 17:54:20,940
-INFO: initializing value config...  at 2022-08-27 17:54:20,940
-ERROR: Connection failed  at 2022-08-27 17:54:24,709
-ERROR: (2003, "Can't connect to MySQL server on '172.18.0.2' ([Errno 111] Connection refused)")  at 2022-08-27 17:54:24,709
-INFO: opening config file...  at 2022-08-27 17:54:43,486
-INFO: file: config.json was opened successfully.  at 2022-08-27 17:54:43,486
-INFO: initializing programm config...  at 2022-08-27 17:54:43,486
-INFO: program config initialize finished.  at 2022-08-27 17:54:43,486
-INFO: opening dbConfig file...  at 2022-08-27 17:54:43,486
-INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 17:54:43,486
-INFO: initializing database config...  at 2022-08-27 17:54:43,486
-INFO: database config initialize finished.  at 2022-08-27 17:54:43,486
-INFO: initializing value config...  at 2022-08-27 17:54:43,486
-ERROR: Connection failed  at 2022-08-27 17:54:47,304
-ERROR: (2003, "Can't connect to MySQL server on '172.18.0.2' ([Errno 111] Connection refused)")  at 2022-08-27 17:54:47,304
+INFO: opening config file...  at 2022-08-27 21:03:54,425
+INFO: file: config.json was opened successfully.  at 2022-08-27 21:03:54,425
+INFO: initializing programm config...  at 2022-08-27 21:03:54,425
+INFO: program config initialize finished.  at 2022-08-27 21:03:54,425
+INFO: opening dbConfig file...  at 2022-08-27 21:03:54,425
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 21:03:54,426
+INFO: initializing database config...  at 2022-08-27 21:03:54,426
+INFO: database config initialize finished.  at 2022-08-27 21:04:00,623
+INFO: Generating sql query...  at 2022-08-27 21:04:02,581
+INFO: opening config file...  at 2022-08-27 21:04:33,532
+INFO: file: config.json was opened successfully.  at 2022-08-27 21:04:33,533
+INFO: initializing programm config...  at 2022-08-27 21:04:33,533
+INFO: program config initialize finished.  at 2022-08-27 21:04:33,533
+INFO: opening dbConfig file...  at 2022-08-27 21:04:33,533
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 21:04:33,533
+INFO: initializing database config...  at 2022-08-27 21:04:33,533
+INFO: database config initialize finished.  at 2022-08-27 21:04:36,891
+INFO: Generating sql query...  at 2022-08-27 21:04:38,862
+INFO: Successfully generated sql query  at 2022-08-27 21:04:38,865
+INFO: Successfully connected to db  at 2022-08-27 21:04:38,874
+INFO: Inserting data to db...  at 2022-08-27 21:04:38,874
+INFO: Successfully inserted to db  at 2022-08-27 21:04:38,912
+INFO: opening config file...  at 2022-08-27 21:06:57,974
+INFO: file: config.json was opened successfully.  at 2022-08-27 21:06:57,974
+INFO: initializing programm config...  at 2022-08-27 21:06:57,974
+INFO: program config initialize finished.  at 2022-08-27 21:06:57,974
+INFO: opening dbConfig file...  at 2022-08-27 21:06:57,974
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 21:06:57,975
+INFO: initializing database config...  at 2022-08-27 21:06:57,975
+INFO: database config initialize finished.  at 2022-08-27 21:07:01,089
+INFO: Generating sql query...  at 2022-08-27 21:07:03,060
+INFO: Successfully generated sql query  at 2022-08-27 21:07:03,063
+INFO: Successfully connected to db  at 2022-08-27 21:07:03,070
+INFO: Inserting data to db...  at 2022-08-27 21:07:03,070
+INFO: Successfully inserted to db  at 2022-08-27 21:07:03,111
+INFO: Process finished!  at 2022-08-27 21:07:03,111
+INFO: opening config file...  at 2022-08-27 22:05:32,250
+INFO: file: config.json was opened successfully.  at 2022-08-27 22:05:32,250
+INFO: initializing programm config...  at 2022-08-27 22:05:32,250
+INFO: program config initialize finished.  at 2022-08-27 22:05:32,250
+INFO: opening dbConfig file...  at 2022-08-27 22:05:32,250
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 22:05:32,250
+INFO: initializing database config...  at 2022-08-27 22:05:32,250
+INFO: database config initialize finished.  at 2022-08-27 22:05:37,740
+INFO: opening config file...  at 2022-08-27 22:06:43,260
+INFO: file: config.json was opened successfully.  at 2022-08-27 22:06:43,261
+INFO: initializing programm config...  at 2022-08-27 22:06:43,261
+INFO: program config initialize finished.  at 2022-08-27 22:06:43,261
+INFO: opening dbConfig file...  at 2022-08-27 22:06:43,261
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 22:06:43,261
+INFO: initializing database config...  at 2022-08-27 22:06:43,261
+INFO: database config initialize finished.  at 2022-08-27 22:06:45,789
+INFO: opening config file...  at 2022-08-27 22:15:03,342
+INFO: file: config.json was opened successfully.  at 2022-08-27 22:15:03,342
+INFO: initializing programm config...  at 2022-08-27 22:15:03,342
+INFO: program config initialize finished.  at 2022-08-27 22:15:03,342
+INFO: opening dbConfig file...  at 2022-08-27 22:15:03,342
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 22:15:03,342
+INFO: initializing database config...  at 2022-08-27 22:15:03,342
+INFO: database config initialize finished.  at 2022-08-27 22:15:05,810
+INFO: opening config file...  at 2022-08-27 22:15:45,749
+INFO: file: config.json was opened successfully.  at 2022-08-27 22:15:45,749
+INFO: initializing programm config...  at 2022-08-27 22:15:45,749
+INFO: program config initialize finished.  at 2022-08-27 22:15:45,749
+INFO: opening dbConfig file...  at 2022-08-27 22:15:45,749
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 22:15:45,749
+INFO: initializing database config...  at 2022-08-27 22:15:45,749
+INFO: database config initialize finished.  at 2022-08-27 22:15:48,655
+INFO: Generating sql query...  at 2022-08-27 22:15:50,637
+INFO: Successfully generated sql query  at 2022-08-27 22:15:50,640
+INFO: Successfully connected to db  at 2022-08-27 22:15:50,649
+INFO: Inserting data to db...  at 2022-08-27 22:15:50,649
+INFO: Successfully inserted to db  at 2022-08-27 22:15:50,684
+INFO: Process finished!  at 2022-08-27 22:15:50,684
+INFO: opening config file...  at 2022-08-27 22:27:35,495
+INFO: file: config.json was opened successfully.  at 2022-08-27 22:27:35,496
+INFO: initializing programm config...  at 2022-08-27 22:27:35,496
+INFO: program config initialize finished.  at 2022-08-27 22:27:35,496
+INFO: opening dbConfig file...  at 2022-08-27 22:27:35,496
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 22:27:35,496
+INFO: initializing database config...  at 2022-08-27 22:27:35,496
+INFO: database config initialize finished.  at 2022-08-27 22:27:37,925
+INFO: Generating sql query...  at 2022-08-27 22:27:39,902
+INFO: Successfully generated sql query  at 2022-08-27 22:27:39,905
+INFO: Successfully connected to db  at 2022-08-27 22:27:39,912
+INFO: Inserting data to db...  at 2022-08-27 22:27:39,912
+ERROR: Failed to insert query  at 2022-08-27 22:27:39,931
+ERROR: (1062, "Duplicate entry '7-2021-11-20 02:00:07-new' for key 'order_history.PRIMARY'")  at 2022-08-27 22:27:39,931
+INFO: Successfully inserted to db  at 2022-08-27 22:27:39,931
+INFO: Process finished!  at 2022-08-27 22:27:39,931
+INFO: opening config file...  at 2022-08-27 22:27:54,033
+INFO: file: config.json was opened successfully.  at 2022-08-27 22:27:54,034
+INFO: initializing programm config...  at 2022-08-27 22:27:54,034
+INFO: program config initialize finished.  at 2022-08-27 22:27:54,034
+INFO: opening dbConfig file...  at 2022-08-27 22:27:54,034
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 22:27:54,034
+INFO: initializing database config...  at 2022-08-27 22:27:54,034
+INFO: database config initialize finished.  at 2022-08-27 22:27:55,974
+INFO: Generating sql query...  at 2022-08-27 22:27:57,934
+INFO: Successfully generated sql query  at 2022-08-27 22:27:57,937
+INFO: Successfully connected to db  at 2022-08-27 22:27:57,943
+INFO: Inserting data to db...  at 2022-08-27 22:27:57,943
+INFO: Successfully inserted to db  at 2022-08-27 22:27:57,993
+INFO: Process finished!  at 2022-08-27 22:27:57,993
+INFO: opening config file...  at 2022-08-27 22:36:59,551
+INFO: file: config.json was opened successfully.  at 2022-08-27 22:36:59,551
+INFO: initializing programm config...  at 2022-08-27 22:36:59,551
+INFO: program config initialize finished.  at 2022-08-27 22:36:59,551
+INFO: opening dbConfig file...  at 2022-08-27 22:36:59,551
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 22:36:59,551
+INFO: initializing database config...  at 2022-08-27 22:36:59,551
+INFO: database config initialize finished.  at 2022-08-27 22:37:02,325
+INFO: opening config file...  at 2022-08-27 22:37:26,072
+INFO: file: config.json was opened successfully.  at 2022-08-27 22:37:26,072
+INFO: initializing programm config...  at 2022-08-27 22:37:26,073
+INFO: program config initialize finished.  at 2022-08-27 22:37:26,073
+INFO: opening dbConfig file...  at 2022-08-27 22:37:26,073
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 22:37:26,073
+INFO: initializing database config...  at 2022-08-27 22:37:26,073
+INFO: database config initialize finished.  at 2022-08-27 22:37:28,500
+INFO: Generating sql query...  at 2022-08-27 22:37:30,616
+INFO: Successfully generated sql query  at 2022-08-27 22:37:30,619
+INFO: Successfully connected to db  at 2022-08-27 22:37:30,627
+INFO: Inserting data to db...  at 2022-08-27 22:37:30,627
+INFO: Successfully inserted to db  at 2022-08-27 22:37:30,667
+INFO: Process finished!  at 2022-08-27 22:37:30,667
