@@ -14,3 +14,119 @@ INFO: program config initialize finished.  at 2022-08-27 17:01:44,483
 INFO: opening dbConfig file...  at 2022-08-27 17:01:44,483
 INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 17:01:44,484
 INFO: initializing database config...  at 2022-08-27 17:01:44,484
+INFO: opening config file...  at 2022-08-27 17:45:24,244
+INFO: file: config.json was opened successfully.  at 2022-08-27 17:45:24,244
+INFO: initializing programm config...  at 2022-08-27 17:45:24,244
+INFO: program config initialize finished.  at 2022-08-27 17:45:24,244
+INFO: opening dbConfig file...  at 2022-08-27 17:45:24,244
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 17:45:24,244
+INFO: initializing database config...  at 2022-08-27 17:45:24,244
+INFO: database config initialize finished.  at 2022-08-27 17:45:24,244
+INFO: initializing value config...  at 2022-08-27 17:45:24,244
+ERROR: Failed creating query  at 2022-08-27 17:45:28,105
+INFO: opening config file...  at 2022-08-27 17:46:08,828
+INFO: file: config.json was opened successfully.  at 2022-08-27 17:46:08,828
+INFO: initializing programm config...  at 2022-08-27 17:46:08,828
+INFO: program config initialize finished.  at 2022-08-27 17:46:08,828
+INFO: opening dbConfig file...  at 2022-08-27 17:46:08,828
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 17:46:08,828
+INFO: initializing database config...  at 2022-08-27 17:46:08,828
+INFO: database config initialize finished.  at 2022-08-27 17:46:08,828
+INFO: initializing value config...  at 2022-08-27 17:46:08,828
+ERROR: Connection failed  at 2022-08-27 17:46:08,916
+ERROR: (2003, "Can't connect to MySQL server on '172.18.0.2' ([Errno 111] Connection refused)")  at 2022-08-27 17:46:08,916
+INFO: opening config file...  at 2022-08-27 17:46:40,462
+INFO: file: config.json was opened successfully.  at 2022-08-27 17:46:40,462
+INFO: initializing programm config...  at 2022-08-27 17:46:40,462
+INFO: program config initialize finished.  at 2022-08-27 17:46:40,462
+INFO: opening dbConfig file...  at 2022-08-27 17:46:40,462
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 17:46:40,462
+INFO: initializing database config...  at 2022-08-27 17:46:40,463
+INFO: database config initialize finished.  at 2022-08-27 17:46:40,463
+INFO: initializing value config...  at 2022-08-27 17:46:40,463
+ERROR: Failed creating query  at 2022-08-27 17:46:44,286
+INFO: opening config file...  at 2022-08-27 17:48:11,041
+INFO: file: config.json was opened successfully.  at 2022-08-27 17:48:11,041
+INFO: initializing programm config...  at 2022-08-27 17:48:11,041
+INFO: program config initialize finished.  at 2022-08-27 17:48:11,041
+INFO: opening dbConfig file...  at 2022-08-27 17:48:11,041
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 17:48:11,041
+INFO: initializing database config...  at 2022-08-27 17:48:11,041
+INFO: database config initialize finished.  at 2022-08-27 17:48:11,041
+INFO: initializing value config...  at 2022-08-27 17:48:11,041
+INFO: opening config file...  at 2022-08-27 17:49:08,930
+INFO: file: config.json was opened successfully.  at 2022-08-27 17:49:08,930
+INFO: initializing programm config...  at 2022-08-27 17:49:08,930
+INFO: program config initialize finished.  at 2022-08-27 17:49:08,930
+INFO: opening dbConfig file...  at 2022-08-27 17:49:08,930
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 17:49:08,930
+INFO: initializing database config...  at 2022-08-27 17:49:08,930
+INFO: database config initialize finished.  at 2022-08-27 17:49:08,930
+INFO: initializing value config...  at 2022-08-27 17:49:08,930
+INFO: opening config file...  at 2022-08-27 17:50:11,358
+INFO: file: config.json was opened successfully.  at 2022-08-27 17:50:11,358
+INFO: initializing programm config...  at 2022-08-27 17:50:11,358
+INFO: program config initialize finished.  at 2022-08-27 17:50:11,358
+INFO: opening dbConfig file...  at 2022-08-27 17:50:11,358
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 17:50:11,358
+INFO: initializing database config...  at 2022-08-27 17:50:11,358
+INFO: database config initialize finished.  at 2022-08-27 17:50:11,358
+INFO: initializing value config...  at 2022-08-27 17:50:11,358
+INFO: opening config file...  at 2022-08-27 17:53:07,255
+INFO: file: config.json was opened successfully.  at 2022-08-27 17:53:07,255
+INFO: initializing programm config...  at 2022-08-27 17:53:07,255
+INFO: program config initialize finished.  at 2022-08-27 17:53:07,255
+INFO: opening dbConfig file...  at 2022-08-27 17:53:07,255
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 17:53:07,255
+INFO: initializing database config...  at 2022-08-27 17:53:07,255
+INFO: database config initialize finished.  at 2022-08-27 17:53:07,255
+INFO: initializing value config...  at 2022-08-27 17:53:07,255
+INFO: opening config file...  at 2022-08-27 17:53:28,352
+INFO: file: config.json was opened successfully.  at 2022-08-27 17:53:28,352
+INFO: initializing programm config...  at 2022-08-27 17:53:28,352
+INFO: program config initialize finished.  at 2022-08-27 17:53:28,352
+INFO: opening dbConfig file...  at 2022-08-27 17:53:28,352
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 17:53:28,352
+INFO: initializing database config...  at 2022-08-27 17:53:28,352
+INFO: database config initialize finished.  at 2022-08-27 17:53:28,352
+INFO: initializing value config...  at 2022-08-27 17:53:28,353
+INFO: opening config file...  at 2022-08-27 17:53:40,785
+INFO: file: config.json was opened successfully.  at 2022-08-27 17:53:40,785
+INFO: initializing programm config...  at 2022-08-27 17:53:40,786
+INFO: program config initialize finished.  at 2022-08-27 17:53:40,786
+INFO: opening dbConfig file...  at 2022-08-27 17:53:40,786
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 17:53:40,786
+INFO: initializing database config...  at 2022-08-27 17:53:40,786
+INFO: database config initialize finished.  at 2022-08-27 17:53:40,786
+INFO: initializing value config...  at 2022-08-27 17:53:40,786
+INFO: opening config file...  at 2022-08-27 17:54:07,024
+INFO: file: config.json was opened successfully.  at 2022-08-27 17:54:07,025
+INFO: initializing programm config...  at 2022-08-27 17:54:07,025
+INFO: program config initialize finished.  at 2022-08-27 17:54:07,025
+INFO: opening dbConfig file...  at 2022-08-27 17:54:07,025
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 17:54:07,025
+INFO: initializing database config...  at 2022-08-27 17:54:07,025
+INFO: database config initialize finished.  at 2022-08-27 17:54:07,025
+INFO: initializing value config...  at 2022-08-27 17:54:07,025
+INFO: opening config file...  at 2022-08-27 17:54:20,939
+INFO: file: config.json was opened successfully.  at 2022-08-27 17:54:20,939
+INFO: initializing programm config...  at 2022-08-27 17:54:20,940
+INFO: program config initialize finished.  at 2022-08-27 17:54:20,940
+INFO: opening dbConfig file...  at 2022-08-27 17:54:20,940
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 17:54:20,940
+INFO: initializing database config...  at 2022-08-27 17:54:20,940
+INFO: database config initialize finished.  at 2022-08-27 17:54:20,940
+INFO: initializing value config...  at 2022-08-27 17:54:20,940
+ERROR: Connection failed  at 2022-08-27 17:54:24,709
+ERROR: (2003, "Can't connect to MySQL server on '172.18.0.2' ([Errno 111] Connection refused)")  at 2022-08-27 17:54:24,709
+INFO: opening config file...  at 2022-08-27 17:54:43,486
+INFO: file: config.json was opened successfully.  at 2022-08-27 17:54:43,486
+INFO: initializing programm config...  at 2022-08-27 17:54:43,486
+INFO: program config initialize finished.  at 2022-08-27 17:54:43,486
+INFO: opening dbConfig file...  at 2022-08-27 17:54:43,486
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 17:54:43,486
+INFO: initializing database config...  at 2022-08-27 17:54:43,486
+INFO: database config initialize finished.  at 2022-08-27 17:54:43,486
+INFO: initializing value config...  at 2022-08-27 17:54:43,486
+ERROR: Connection failed  at 2022-08-27 17:54:47,304
+ERROR: (2003, "Can't connect to MySQL server on '172.18.0.2' ([Errno 111] Connection refused)")  at 2022-08-27 17:54:47,304

@@ -1,7 +1,7 @@
 {
   "host": "db",
   "port": 3306,
-  "user": "dbuser",
-  "pass": "dbpass",
+  "user": "root",
+  "pass": "root",
   "database": "orderdb"
 }

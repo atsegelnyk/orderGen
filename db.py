@@ -11,7 +11,7 @@ def connect_to_db():
             database=dbName,
         )
         log.info("Successfully connected to db")
-    except pymysql.Error as ConnectionError:
+    except Exception as ConnectionError:
         log.error("Connection failed")
         log.error(ConnectionError)
         exit(-1)
@@ -31,7 +31,6 @@ def insert_data(insert_query, connection):
 
 
 def generate_sql_query(orderHistory):
-    try:
         sql_query = "INSERT INTO `order_history`(`id`, `creation_date`, `change_date`, `state`, `instrument`, `direction`, `initial_volume`, `fill_volume`, `initial_price`, `fill_price`) VALUES"
         for index in range(orderHistoryRange):
             sql_query += f"({orderHistory[index][ID]}," \
@@ -45,8 +44,6 @@ def generate_sql_query(orderHistory):
                          f"{orderHistory[index][INITALPRICE]}," \
                          f"{orderHistory[index][FILLPRICE]},"
         return sql_query[:-1] + ";"
-    except Exception:
-        log.error("Failed creating query")
-        exit(-1)
+
 
 
