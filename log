@@ -124,3 +124,91 @@ INFO: Successfully connected to db  at 2022-08-27 22:37:30,627
 INFO: Inserting data to db...  at 2022-08-27 22:37:30,627
 INFO: Successfully inserted to db  at 2022-08-27 22:37:30,667
 INFO: Process finished!  at 2022-08-27 22:37:30,667
+INFO: opening config file...  at 2022-08-27 23:08:46,569
+INFO: file: config.json was opened successfully.  at 2022-08-27 23:08:46,569
+INFO: initializing programm config...  at 2022-08-27 23:08:46,569
+INFO: program config initialize finished.  at 2022-08-27 23:08:46,569
+INFO: opening dbConfig file...  at 2022-08-27 23:08:46,569
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 23:08:46,569
+INFO: initializing database config...  at 2022-08-27 23:08:46,569
+INFO: database config initialize finished.  at 2022-08-27 23:08:50,625
+INFO: opening config file...  at 2022-08-27 23:09:28,249
+INFO: file: config.json was opened successfully.  at 2022-08-27 23:09:28,250
+INFO: initializing programm config...  at 2022-08-27 23:09:28,250
+INFO: program config initialize finished.  at 2022-08-27 23:09:28,250
+INFO: opening dbConfig file...  at 2022-08-27 23:09:28,250
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 23:09:28,250
+INFO: initializing database config...  at 2022-08-27 23:09:28,250
+INFO: database config initialize finished.  at 2022-08-27 23:09:30,421
+INFO: Generating sql query...  at 2022-08-27 23:09:32,391
+INFO: Successfully generated sql query  at 2022-08-27 23:09:32,394
+INFO: Successfully connected to db  at 2022-08-27 23:09:32,402
+INFO: Inserting data to db...  at 2022-08-27 23:09:32,402
+INFO: Successfully inserted to db  at 2022-08-27 23:09:32,439
+INFO: Process finished!  at 2022-08-27 23:09:32,439
+INFO: opening config file...  at 2022-08-27 23:22:21,740
+INFO: file: config.json was opened successfully.  at 2022-08-27 23:22:21,740
+INFO: initializing programm config...  at 2022-08-27 23:22:21,740
+INFO: program config initialize finished.  at 2022-08-27 23:22:21,740
+INFO: opening dbConfig file...  at 2022-08-27 23:22:21,740
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 23:22:21,740
+INFO: initializing database config...  at 2022-08-27 23:22:21,740
+INFO: database config initialize finished.  at 2022-08-27 23:22:23,999
+INFO: opening config file...  at 2022-08-27 23:22:38,391
+INFO: file: config.json was opened successfully.  at 2022-08-27 23:22:38,392
+INFO: initializing programm config...  at 2022-08-27 23:22:38,392
+INFO: program config initialize finished.  at 2022-08-27 23:22:38,392
+INFO: opening dbConfig file...  at 2022-08-27 23:22:38,392
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 23:22:38,392
+INFO: initializing database config...  at 2022-08-27 23:22:38,392
+INFO: database config initialize finished.  at 2022-08-27 23:22:41,354
+INFO: opening config file...  at 2022-08-27 23:23:35,140
+INFO: file: config.json was opened successfully.  at 2022-08-27 23:23:35,140
+INFO: initializing programm config...  at 2022-08-27 23:23:35,140
+INFO: program config initialize finished.  at 2022-08-27 23:23:35,140
+INFO: opening dbConfig file...  at 2022-08-27 23:23:35,140
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 23:23:35,140
+INFO: initializing database config...  at 2022-08-27 23:23:35,140
+INFO: database config initialize finished.  at 2022-08-27 23:23:37,732
+INFO: opening config file...  at 2022-08-27 23:25:03,438
+INFO: file: config.json was opened successfully.  at 2022-08-27 23:25:03,438
+INFO: initializing programm config...  at 2022-08-27 23:25:03,438
+INFO: program config initialize finished.  at 2022-08-27 23:25:03,438
+INFO: opening dbConfig file...  at 2022-08-27 23:25:03,438
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 23:25:03,438
+INFO: initializing database config...  at 2022-08-27 23:25:03,438
+INFO: database config initialize finished.  at 2022-08-27 23:25:05,454
+INFO: Generating sql query...  at 2022-08-27 23:25:07,427
+INFO: Successfully generated sql query  at 2022-08-27 23:25:07,430
+INFO: Successfully connected to db  at 2022-08-27 23:25:07,437
+INFO: Inserting data to db...  at 2022-08-27 23:25:07,437
+INFO: Successfully inserted to db  at 2022-08-27 23:25:07,475
+INFO: Process finished!  at 2022-08-27 23:25:07,475
+INFO: opening config file...  at 2022-08-27 23:31:58,318
+INFO: file: config.json was opened successfully.  at 2022-08-27 23:31:58,319
+INFO: initializing programm config...  at 2022-08-27 23:31:58,319
+INFO: program config initialize finished.  at 2022-08-27 23:31:58,319
+INFO: opening dbConfig file...  at 2022-08-27 23:31:58,319
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 23:31:58,319
+INFO: initializing database config...  at 2022-08-27 23:31:58,319
+INFO: database config initialize finished.  at 2022-08-27 23:32:00,560
+INFO: Generating sql query...  at 2022-08-27 23:32:02,539
+INFO: Successfully generated sql query  at 2022-08-27 23:32:02,541
+INFO: Successfully connected to db  at 2022-08-27 23:32:02,549
+INFO: Inserting data to db...  at 2022-08-27 23:32:02,549
+INFO: Successfully inserted to db  at 2022-08-27 23:32:02,595
+INFO: Process finished!  at 2022-08-27 23:32:02,595
+INFO: opening config file...  at 2022-08-27 23:34:36,024
+INFO: file: config.json was opened successfully.  at 2022-08-27 23:34:36,024
+INFO: initializing programm config...  at 2022-08-27 23:34:36,024
+INFO: program config initialize finished.  at 2022-08-27 23:34:36,024
+INFO: opening dbConfig file...  at 2022-08-27 23:34:36,024
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 23:34:36,024
+INFO: initializing database config...  at 2022-08-27 23:34:36,024
+INFO: database config initialize finished.  at 2022-08-27 23:34:47,694
+INFO: Generating sql query...  at 2022-08-27 23:34:49,668
+INFO: Successfully generated sql query  at 2022-08-27 23:34:49,671
+INFO: Successfully connected to db  at 2022-08-27 23:34:49,678
+INFO: Inserting data to db...  at 2022-08-27 23:34:49,678
+INFO: Successfully inserted to db  at 2022-08-27 23:34:49,723
+INFO: Process finished!  at 2022-08-27 23:34:49,723
