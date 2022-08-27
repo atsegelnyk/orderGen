@@ -1,0 +1,21 @@
+{
+  "alpha": 6,
+  "module": 2500,
+  "step": 7,
+  "volumeAlpha": 4.2,
+  "volumeModule": 10,
+  "volumeStep": 2.4,
+  "timeAlpha": 6,
+  "timeModule": 700,
+  "timeStep": 7,
+  "orderRange": 624,
+  "orderHistoryRange": 2500,
+
+  "startDate": 1637366400.0,
+  "endDate": 1637701200,
+  "startBlock1": 1637442000,
+  "startBlock2": 1637528400,
+  "startBlock3": 1637614800,
+  "timestampDiff": 10800
+
+}

@@ -1,0 +1,9 @@
+INFO: opening config file...  at 2022-08-27 13:02:48,080
+INFO: file: config.json was opened successfully.  at 2022-08-27 13:02:48,080
+INFO: initializing programm config...  at 2022-08-27 13:02:48,080
+INFO: program config initialize finished.  at 2022-08-27 13:02:48,080
+INFO: opening dbConfig file...  at 2022-08-27 13:02:48,080
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 13:02:48,080
+INFO: initializing database config...  at 2022-08-27 13:02:48,080
+INFO: database config initialize finished.  at 2022-08-27 13:02:48,080
+INFO: initializing value config...  at 2022-08-27 13:02:48,081
