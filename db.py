@@ -18,8 +18,7 @@ def connect_to_db():
     return connection
 
 
-def insert_data(insert_query):
-    connection = connect_to_db()
+def insert_data(insert_query, connection):
     try:
         connection.query(insert_query)
         connection.commit()
@@ -33,7 +32,7 @@ def insert_data(insert_query):
 
 def generate_sql_query(orderHistory):
     try:
-        sql_query = "INSERT INTO `history_order`(`id`, `creation_date`, `change_date`, `state`, `instrument`, `direction`, `initial_volume`, `fill_volume`, `initial_price`, `fill_price`) VALUES"
+        sql_query = "INSERT INTO `order_history`(`id`, `creation_date`, `change_date`, `state`, `instrument`, `direction`, `initial_volume`, `fill_volume`, `initial_price`, `fill_price`) VALUES"
         for index in range(orderHistoryRange):
             sql_query += f"({orderHistory[index][ID]}," \
                          f"'{orderHistory[index][CREATIONDATE]}'," \

@@ -1,7 +1,6 @@
 {
-  "host": "localhost",
-  "port": 5555,
-  "user": "user",
-  "password": "password",
-  "database": "database"
+  "host": "db",
+  "port": 3306,
+  "user": "dbuser",
+  "database": "orderdb"
 }

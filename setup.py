@@ -1,6 +1,6 @@
 import json
-#import pymysql as sql
 import logging as log
+from getdbpass import *
 
 log.basicConfig(filename="log", format='%(levelname)s: %(message)s  at %(asctime)s', level=log.DEBUG)
 
@@ -52,7 +52,7 @@ log.info('initializing database config...')
 dbHost = data["host"]
 dbPort = data["port"]
 dbUser = data["user"]
-dbPass = data["password"]
+dbPass = get_db_pass()
 dbName = data["database"]
 
 log.info('database config initialize finished.')
