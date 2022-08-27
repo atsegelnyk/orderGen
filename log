@@ -212,3 +212,33 @@ INFO: Successfully connected to db  at 2022-08-27 23:34:49,678
 INFO: Inserting data to db...  at 2022-08-27 23:34:49,678
 INFO: Successfully inserted to db  at 2022-08-27 23:34:49,723
 INFO: Process finished!  at 2022-08-27 23:34:49,723
+INFO: opening config file...  at 2022-08-27 23:39:54,065
+INFO: file: config.json was opened successfully.  at 2022-08-27 23:39:54,065
+INFO: initializing programm config...  at 2022-08-27 23:39:54,065
+INFO: program config initialize finished.  at 2022-08-27 23:39:54,066
+INFO: opening dbConfig file...  at 2022-08-27 23:39:54,066
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 23:39:54,066
+INFO: initializing database config...  at 2022-08-27 23:39:54,066
+INFO: database config initialize finished.  at 2022-08-27 23:39:57,514
+INFO: Generating sql query...  at 2022-08-27 23:39:59,474
+INFO: Successfully generated sql query  at 2022-08-27 23:39:59,477
+INFO: Successfully connected to db  at 2022-08-27 23:39:59,486
+INFO: Inserting data to db...  at 2022-08-27 23:39:59,486
+ERROR: Failed to insert query  at 2022-08-27 23:39:59,506
+ERROR: (1062, "Duplicate entry '7-2021-11-20 02:00:07-new' for key 'order_history.PRIMARY'")  at 2022-08-27 23:39:59,506
+INFO: Successfully inserted to db  at 2022-08-27 23:39:59,506
+INFO: Process finished!  at 2022-08-27 23:39:59,506
+INFO: opening config file...  at 2022-08-27 23:40:09,776
+INFO: file: config.json was opened successfully.  at 2022-08-27 23:40:09,777
+INFO: initializing programm config...  at 2022-08-27 23:40:09,777
+INFO: program config initialize finished.  at 2022-08-27 23:40:09,777
+INFO: opening dbConfig file...  at 2022-08-27 23:40:09,777
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 23:40:09,777
+INFO: initializing database config...  at 2022-08-27 23:40:09,777
+INFO: database config initialize finished.  at 2022-08-27 23:40:12,250
+INFO: Generating sql query...  at 2022-08-27 23:40:14,216
+INFO: Successfully generated sql query  at 2022-08-27 23:40:14,219
+INFO: Successfully connected to db  at 2022-08-27 23:40:14,225
+INFO: Inserting data to db...  at 2022-08-27 23:40:14,225
+INFO: Successfully inserted to db  at 2022-08-27 23:40:14,265
+INFO: Process finished!  at 2022-08-27 23:40:14,265
