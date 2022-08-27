@@ -57,4 +57,17 @@ dbName = data["database"]
 
 log.info('database config initialize finished.')
 
-connectionString = ('DRIVER={MySQL ODBC 8.0 ANSI Driver};SERVER='+dbHost+';DATABASE='+dbName+';UID='+dbUser+';PWD='+dbPass)
+log.info('initializing value config...')
+
+initalPricesArr = [1.03, 135.85, 1.2, 1.3, 0.68, 0.62, 0.86, 1.51]
+
+ID = 0
+CREATIONDATE = 1
+CHANGEDATE = 2
+STATE = 3
+INSTRUMENT = 4
+DIRECTION = 5
+INITALVOLUME = 6
+FILLVOLUME = 7
+INITALPRICE = 8
+FILLPRICE = 9

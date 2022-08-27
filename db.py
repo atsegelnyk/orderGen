@@ -31,20 +31,20 @@ def insert_data(insert_query):
         connection.close()
 
 
-def generate_sql_query(ID, Create_Date, Change_Date, State, Direction, Instrument, Initial_Volume, Fill_Volume, Initial_Price, Fill_Price):
+def generate_sql_query(orderHistory):
     try:
-        sql_query = "INSERT INTO `history_order`(`id`, `creation date`, `change date`, `state`, `instrument`, `direction`, `initial volume`, `fill volume`, `initial price`, `fill price`) VALUES"
-        for i in range(orderHistoryRange):
-            sql_query += f"({ID[i]}," \
-                         f"'{Create_Date[i]}'," \
-                         f"'{Change_Date[i]}'," \
-                         f"'{State[i]}'," \
-                         f"'{Direction[i]}'," \
-                         f"'{Instrument[i]}'," \
-                         f"{Initial_Volume[i]}," \
-                         f"{Fill_Volume[i]}," \
-                         f"{Initial_Price[i]}," \
-                         f"{Fill_Price[i]},"
+        sql_query = "INSERT INTO `history_order`(`id`, `creation_date`, `change_date`, `state`, `instrument`, `direction`, `initial_volume`, `fill_volume`, `initial_price`, `fill_price`) VALUES"
+        for index in range(orderHistoryRange):
+            sql_query += f"({orderHistory[index][ID]}," \
+                         f"'{orderHistory[index][CREATIONDATE]}'," \
+                         f"'{orderHistory[index][CHANGEDATE]}'," \
+                         f"'{orderHistory[index][STATE]}'," \
+                         f"'{orderHistory[index][INSTRUMENT]}'," \
+                         f"'{orderHistory[index][DIRECTION]}'," \
+                         f"{orderHistory[index][INITALVOLUME]}," \
+                         f"{orderHistory[index][FILLVOLUME]}," \
+                         f"{orderHistory[index][INITALPRICE]}," \
+                         f"{orderHistory[index][FILLPRICE]},"
         return sql_query[:-1] + ";"
     except Exception:
         log.error("Failed creating query")

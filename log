@@ -52,3 +52,12 @@ INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 13:32:07,070
 INFO: initializing database config...  at 2022-08-27 13:32:07,070
 INFO: database config initialize finished.  at 2022-08-27 13:32:07,070
 INFO: initializing value config...  at 2022-08-27 13:32:07,070
+INFO: opening config file...  at 2022-08-27 15:27:46,687
+INFO: file: config.json was opened successfully.  at 2022-08-27 15:27:46,687
+INFO: initializing programm config...  at 2022-08-27 15:27:46,687
+INFO: program config initialize finished.  at 2022-08-27 15:27:46,687
+INFO: opening dbConfig file...  at 2022-08-27 15:27:46,687
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-27 15:27:46,687
+INFO: initializing database config...  at 2022-08-27 15:27:46,688
+INFO: database config initialize finished.  at 2022-08-27 15:27:46,688
+INFO: initializing value config...  at 2022-08-27 15:27:46,688

@@ -9,4 +9,4 @@ def Workflow():
     for order in orderHistoryList:
         print(order)
 
-    connection = connect_to_db()
+    #connection = connect_to_db()
