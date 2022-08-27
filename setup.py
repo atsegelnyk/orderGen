@@ -50,11 +50,11 @@ log.info('file: dbConfig.json was opened successfully.')
 
 log.info('initializing database config...')
 dbHost = data["host"]
+dbPort = data["port"]
 dbUser = data["user"]
 dbPass = data["password"]
 dbName = data["database"]
 
 log.info('database config initialize finished.')
 
-log.info('initializing value config...')
-initalPricesArr = [1.03, 135.85, 1.2, 1.3, 0.68, 0.62, 0.86, 1.51]
+connectionString = ('DRIVER={MySQL ODBC 8.0 ANSI Driver};SERVER='+dbHost+';DATABASE='+dbName+';UID='+dbUser+';PWD='+dbPass)

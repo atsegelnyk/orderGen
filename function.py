@@ -162,9 +162,16 @@ def generateCurrentOrder():
 
 
 def change_date_generate(date, count):
-    diff = data_arr[count]
+    diff = data_arr[count]/10
     dateTimestamp = datetime.strptime(date, '%Y-%m-%d %H:%M:%S').timestamp()
-    changedDate = str(datetime.fromtimestamp(dateTimestamp + diff))
+    if dateTimestamp + diff in range(block1, block1 + timestampDiff):
+        changedDate = str(datetime.fromtimestamp(dateTimestamp + diff + timestampDiff).replace(microsecond=0))
+    elif dateTimestamp + diff in range(block2, block2 + timestampDiff):
+        changedDate = str(datetime.fromtimestamp(dateTimestamp + diff + timestampDiff).replace(microsecond=0))
+    elif dateTimestamp + diff in range(block3, block3 + timestampDiff):
+        changedDate = str(datetime.fromtimestamp(dateTimestamp + diff + timestampDiff).replace(microsecond=0))
+    else:
+        changedDate = str(datetime.fromtimestamp(dateTimestamp + diff).replace(microsecond=0))
     return changedDate
 
 
@@ -196,7 +203,7 @@ def update_fill_volumes(initalVolume, state, psrand_arr, count):
             updFillVolume = initalVolume + 0.1
         else:
             updFillVolume = initalVolume - 0.1
-    return updFillVolume
+    return round(updFillVolume, 2)
 
 
 def update_fill_price(initalPrice, direction, psrand_arr, count):
@@ -222,7 +229,7 @@ def update_fill_price(initalPrice, direction, psrand_arr, count):
             updFillPrice = initalPrice + percentage(4, initalPrice)
         else:
             updFillPrice = initalPrice + percentage(5, initalPrice)
-    return round(updFillPrice, 2)
+    return round(updFillPrice, 3)
 
 
 def generateOrderHistory(currentOrderList):
