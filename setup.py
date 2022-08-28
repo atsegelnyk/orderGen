@@ -2,7 +2,7 @@ import json
 import logging as log
 from getdbpass import *
 
-log.basicConfig(filename="log", format='%(levelname)s: %(message)s  at %(asctime)s', level=log.DEBUG)
+log.basicConfig(filename="logs/log", format='%(levelname)s: %(message)s  at %(asctime)s', level=log.DEBUG)
 
 log.info('opening config file...')
 try:
@@ -40,7 +40,7 @@ log.info('program config initialize finished.')
 log.info('opening dbConfig file...')
 try:
     with open("conf/dbConfig.json", "r") as conf:
-        data = json.load(conf)
+        dbData = json.load(conf)
 except IOError:
     log.fatal('Error opening dbConfig file.')
     exit(1)
@@ -49,11 +49,11 @@ log.info('file: dbConfig.json was opened successfully.')
 
 
 log.info('initializing database config...')
-dbHost = data["host"]
-dbPort = data["port"]
-dbUser = data["user"]
+dbHost = dbData["host"]
+dbPort = dbData["port"]
+dbUser = dbData["user"]
 dbPass = get_db_pass()
-dbName = data["database"]
+dbName = dbData["database"]
 
 log.info('database config initialize finished.')
 

@@ -2,6 +2,7 @@ import pymysql
 from setup import *
 from constants import *
 
+
 def connect_to_db():
     try:
         connection = pymysql.connect(
@@ -11,11 +12,13 @@ def connect_to_db():
             password=dbPass,
             database=dbName,
         )
-        log.info("Successfully connected to db")
     except Exception as ConnectionError:
         log.error("Connection failed")
         log.error(ConnectionError)
         exit(2)
+    finally:
+        log.info("Successfully connected to db")
+
     return connection
 
 
@@ -51,6 +54,3 @@ def generate_sql_query(orderHistory):
     log.info("Successfully generated sql query")
 
     return sql_query[:-1] + ";"
-
-
-

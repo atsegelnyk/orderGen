@@ -34,15 +34,14 @@ ivgStep = 0.1
 
 dgVal = 3
 dgEqVal = 0
-dgValF = "buy"
-dgValT = "sell"
+buyValue = "buy"
+sellValue = "sell"
 
-pgVal = 10
+pgValue = 10
 pgEqVal0 = 1
 pgEqVal1 = 3
 pgEqVal2 = 5
 
-gcoState = "new"
 gcoFillPrice = 0
 
 state1 = "new"
@@ -61,3 +60,9 @@ randPercent3 = 3
 randPercent4 = 4
 randPercent5 = 5
 
+pair1 = "EURUSD"
+pair2 = "USDJPY"
+pair3 = "GBPUSD"
+pair4 = "USDCHF"
+
+microsecond = 0

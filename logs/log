@@ -1,0 +1,32 @@
+INFO: opening config file...  at 2022-08-28 16:37:49,416
+INFO: file: config.json was opened successfully.  at 2022-08-28 16:37:49,416
+INFO: initializing programm config...  at 2022-08-28 16:37:49,416
+INFO: program config initialize finished.  at 2022-08-28 16:37:49,416
+INFO: opening dbConfig file...  at 2022-08-28 16:37:49,416
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-28 16:37:49,416
+INFO: initializing database config...  at 2022-08-28 16:37:49,416
+INFO: database config initialize finished.  at 2022-08-28 16:37:51,647
+INFO: Validating config...  at 2022-08-28 16:37:51,736
+INFO: Validation successful  at 2022-08-28 16:37:51,736
+INFO: Generating sql query...  at 2022-08-28 16:37:53,652
+INFO: Successfully generated sql query  at 2022-08-28 16:37:53,655
+INFO: Successfully connected to db  at 2022-08-28 16:37:53,662
+INFO: Inserting data to db...  at 2022-08-28 16:37:53,662
+INFO: Successfully inserted to db  at 2022-08-28 16:37:53,713
+INFO: Process finished!  at 2022-08-28 16:37:53,713
+INFO: opening config file...  at 2022-08-28 16:39:15,400
+INFO: file: config.json was opened successfully.  at 2022-08-28 16:39:15,401
+INFO: initializing programm config...  at 2022-08-28 16:39:15,401
+INFO: program config initialize finished.  at 2022-08-28 16:39:15,401
+INFO: opening dbConfig file...  at 2022-08-28 16:39:15,401
+INFO: file: dbConfig.json was opened successfully.  at 2022-08-28 16:39:15,401
+INFO: initializing database config...  at 2022-08-28 16:39:15,401
+INFO: database config initialize finished.  at 2022-08-28 16:39:19,724
+INFO: Validating config...  at 2022-08-28 16:39:19,813
+INFO: Validation successful  at 2022-08-28 16:39:19,814
+INFO: Generating sql query...  at 2022-08-28 16:39:21,730
+INFO: Successfully generated sql query  at 2022-08-28 16:39:21,733
+INFO: Successfully connected to db  at 2022-08-28 16:39:21,739
+INFO: Inserting data to db...  at 2022-08-28 16:39:21,739
+INFO: Successfully inserted to db  at 2022-08-28 16:39:21,778
+INFO: Process finished!  at 2022-08-28 16:39:21,778

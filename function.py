@@ -53,24 +53,24 @@ def direction_generate(data_arr):
     for i in range(order_range):
         temp = (data_arr[i] % dgVal)
         if temp == dgEqVal:
-            direction_arr.append(dgValT)
+            direction_arr.append(sellValue)
         else:
-            direction_arr.append(dgValF)
+            direction_arr.append(buyValue)
     return direction_arr
 
 
 def pair_generate(data_arr):
     pair_arr = []
     for i in range(order_range):
-        temp = (data_arr[i] % pgVal)
+        temp = (data_arr[i] % pgValue)
         if temp == pgEqVal0:
-            pair_arr.append("EURUSD")
+            pair_arr.append(pair1)
         elif temp == pgEqVal1:
-            pair_arr.append("USDJPY")
+            pair_arr.append(pair2)
         elif temp == pgEqVal2:
-            pair_arr.append("GBPUSD")
+            pair_arr.append(pair3)
         else:
-            pair_arr.append("USDCHF")
+            pair_arr.append(pair4)
     return pair_arr
 
 
@@ -100,7 +100,7 @@ def initial_price_generate(data_arr):
 def fill_prices_generate(data_arr, initalPrice, direction):
     fillPricesArr = []
     for i in range(order_range):
-        if direction == dgValF:
+        if direction == buyValue:
             fillPricesArr.append(round(float(initalPrice[i]) - (float(initalPrice[i]) / float(data_arr[i])), 2))
         else:
             fillPricesArr.append(round(float(initalPrice[i]) + (float(initalPrice[i]) / float(data_arr[i])), 2))
@@ -123,7 +123,7 @@ def generateCurrentOrder():
             ids[row],
             dates[row],
             changeDates[row],
-            gcoState,
+            state1,
             directions[row],
             pairs[row],
             initialVolumes[row],
@@ -139,13 +139,13 @@ def change_date_generate(date, count):
     diff = data_arr[count] / cdPart + cdAdd
     dateTimestamp = datetime.strptime(date, '%Y-%m-%d %H:%M:%S').timestamp()
     if dateTimestamp + diff in range(block1, block1 + timestampDiff):
-        changedDate = str(datetime.fromtimestamp(dateTimestamp + diff + timestampDiff).replace(microsecond=0))
+        changedDate = str(datetime.fromtimestamp(dateTimestamp + diff + timestampDiff).replace(microsecond=microsecond))
     elif dateTimestamp + diff in range(block2, block2 + timestampDiff):
-        changedDate = str(datetime.fromtimestamp(dateTimestamp + diff + timestampDiff).replace(microsecond=0))
+        changedDate = str(datetime.fromtimestamp(dateTimestamp + diff + timestampDiff).replace(microsecond=microsecond))
     elif dateTimestamp + diff in range(block3, block3 + timestampDiff):
-        changedDate = str(datetime.fromtimestamp(dateTimestamp + diff + timestampDiff).replace(microsecond=0))
+        changedDate = str(datetime.fromtimestamp(dateTimestamp + diff + timestampDiff).replace(microsecond=microsecond))
     else:
-        changedDate = str(datetime.fromtimestamp(dateTimestamp + diff).replace(microsecond=0))
+        changedDate = str(datetime.fromtimestamp(dateTimestamp + diff).replace(microsecond=microsecond))
     return changedDate
 
 
@@ -181,7 +181,7 @@ def update_fill_volumes(initalVolume, state, psrand_arr, count):
 def update_fill_price(initalPrice, direction, psrand_arr, count):
     global updFillPrice
     expression = eval(ufpExpression)
-    if direction == dgValF:
+    if direction == buyValue:
 
         match expression:
             case 1:
